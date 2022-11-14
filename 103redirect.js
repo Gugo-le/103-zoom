@@ -221,10 +221,20 @@ function koreanjang() //국어 장기형: Zoom만 시행하는 과목
         });
 }
 
+function copyToClipboard() {
+    var copyText = document.getElementById("pw").value;
+    navigator.clipboard.writeText(copyText).then(() => {
+        // Alert the user that the action took place.
+        // Nobody likes hidden stuff being done under the hood!
+        alert("Copied to clipboard");
+    });
+}
+
 function tech() //기술: Zoom만 시행하는 과목
 {
     swal("기술: Zep으로 이동할까요?", "", "success", {
             buttons: {
+                pw: "PW: 1234",
                 cancel: "취소",
                 OK: true,
             }
@@ -236,7 +246,10 @@ function tech() //기술: Zoom만 시행하는 과목
                     location.href = "https://zep.us/play/8MqMMZ";
                     break;
                 default:
+                    switch (value) {
+                        case "pw":
 
+                    }
             }
         });
 }
