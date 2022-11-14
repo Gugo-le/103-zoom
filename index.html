@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#ffffff">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
@@ -18,9 +18,21 @@
             vertical-align: middle;
         }
         
+        body {
+            background-color: #444444;
+        }
+        
         p {
             font-family: 'Do Hyeon', sans-serif;
+            color: #292929;
             font-size: 2em;
+            text-align: center;
+        }
+        
+        a {
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 2em;
+            color: #bbb;
             text-align: center;
         }
         
@@ -32,26 +44,28 @@
         
         h1 {
             font-family: 'Do hyeon', sans-serif;
+            color: #bbb;
             text-align: center;
             font-size: 5em;
         }
         
         section {
             font-family: 'Do hyeon', sans-serif;
+            color: #bbb;
             font-size: 2em;
             text-align: center;
         }
         
         tr,
         td {
-            border: 1px solid #444444;
+            border: 2px solid #1e1f21;
             border-collapse: collapse;
             text-align: center;
             padding: 0.5em;
         }
         
         tbody tr:nth-child(2n) {
-            background-color: #EAEAEA;
+            background-color: #bbb;
         }
         
         .swal-footer {
@@ -67,8 +81,6 @@
     </style>
 
 </head>
-
-
 <h1 onclick="zojong()">1-3 시간표</h1>
 
 <section id="ddday">
@@ -77,28 +89,30 @@
 </section>
 
 
-<table style="border: 1px solid #444444; border-collapse: collapse; margin-left: auto; margin-right: auto;">
+<table style="border: 2px solid #000; border-collapse: collapse; margin-left: auto; margin-right: auto;">
     <tbody>
+
 
         <tr>
             <td>
-                <p>요일</p>
+                <a>요일</a>
             </td>
             <td>
-                <p>월</p>
+                <a>월</a>
             </td>
             <td>
-                <p>화</p>
+                <a>화</a>
             </td>
             <td>
-                <p>수</p>
+                <a>수</a>
             </td>
             <td>
-                <p>목</p>
+                <a>목</a>
             </td>
             <td>
-                <p>금</p>
+                <a>금</a>
             </td>
+
         </tr>
 
         <tr>
@@ -124,24 +138,26 @@
 
         <tr>
             <td>
-                <p>2</p>
+                <a>2</a>
             </td>
             <td onclick="koreanpark()">
-                <p>국어</p>
+                <a>국어</a>
             </td>
             <td onclick="english()">
-                <p>영어</p>
+                <a>영어</a>
             </td>
             <td onclick="koreanahn()">
-                <p>국어</p>
+                <a>국어</a>
             </td>
             <td onclick="english()">
-                <p>영어</p>
+                <a>영어</a>
             </td>
             <td onclick="koreanjang()">
-                <p>국어</p>
+                <a>국어</a>
             </td>
+
         </tr>
+
 
         <tr>
             <td>
@@ -166,22 +182,22 @@
 
         <tr>
             <td>
-                <p>4</p>
+                <a>4</a>
             </td>
             <td onclick="social()">
-                <p>통사</p>
+                <a>통사</a>
             </td>
             <td onclick="social()">
-                <p>통사</p>
+                <a>통사</a>
             </td>
             <td onclick="pe()">
-                <p>체육</p>
+                <a>체육</a>
             </td>
             <td onclick="science()">
-                <p>통과</p>
+                <a>통과</a>
             </td>
             <td onclick="english()">
-                <p>영어</p>
+                <a>영어</a>
             </td>
         </tr>
 
@@ -208,22 +224,22 @@
 
         <tr>
             <td>
-                <p>6</p>
+                <a>6</a>
             </td>
             <td onclick="tech()">
-                <p>기가</p>
+                <a>기가</a>
             </td>
             <td onclick="science()">
-                <p>통과</p>
+                <a>통과</a>
             </td>
             <td onclick="history()">
                 <p></p>
             </td>
             <td onclick="ca()">
-                <p>창체</p>
+                <a>창체</a>
             </td>
             <td onclick="social()">
-                <p>통사</p>
+                <a>통사</a>
             </td>
         </tr>
 
@@ -246,18 +262,21 @@
             <td onclick="music()">
                 <p>음악</p>
             </td>
-            <td>
-                <p>&nbsp;</p>
-            </td>
+
         </tr>
 
     </tbody>
 </table>
-<h6>&nbsp;</h2>
-    <p>made by 10302 구현승</p>
+<h6>&nbsp;</h6>
+<div style="width:100%; text-align:center;">
+    <a href="https://pomusic.netlify.app/" , style="font-size: 25px;">공부하러가기</a>
+    <br>
+    <a href="https://github.com/Gugo-le" , style="font-size: 1em;">Copyright 2022 ©</a><a href="https://blog.naver.com/rngustmd0719" , style="font-size: 1em;"> Gugo</a>
+</div>
 
-    <script type="text/javascript" src="103redirect.js"></script>
-    <script type="text/javascript" src="ddy.js"></script>
-    </body>
+<script type="text/javascript" src="103redirect.js"></script>
+<script type="text/javascript" src="ddy.js"></script>
+
+</body>
 
 </html>

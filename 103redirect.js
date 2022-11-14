@@ -71,7 +71,7 @@ function history() //한국사: Zoom만 시행하는 과목
             switch (value) {
 
                 case "OK":
-                    location.href = "https://us05web.zoom.us/j/2877750908?pwd=Vnl6ckhVUGduNXFoTnNBbWFpTFB6QT09";
+                    location.href = "https://us05web.zoom.us/j/85898964263?pwd=RFBBUk42dUQzQmlrbGc4cG92VStCZz09";
                     break;
                 default:
 
@@ -223,7 +223,7 @@ function koreanjang() //국어 장기형: Zoom만 시행하는 과목
 
 function tech() //기술: Zoom만 시행하는 과목
 {
-    swal("기술: Zoom으로 이동할까요?", "", "success", {
+    swal("기술: Zep으로 이동할까요?", "", "success", {
             buttons: {
                 cancel: "취소",
                 OK: true,
@@ -233,7 +233,7 @@ function tech() //기술: Zoom만 시행하는 과목
             switch (value) {
 
                 case "OK":
-                    location.href = "https://us05web.zoom.us/j/9420834821?pwd=QXlwbXJUOHplSXoyWUVpZHkvQzUyQT09";
+                    location.href = "https://zep.us/play/8MqMMZ";
                     break;
                 default:
 

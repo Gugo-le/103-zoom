@@ -1,5 +1,5 @@
  var v = new Date().getFullYear(),
-     z = new Date("Dec 12, " + v).getTime(),
+     z = new Date("Dec 13, " + v).getTime(),
      x = setInterval(function() {
          var f = new Date().getTime(),
              g = z - f,
@@ -8,8 +8,8 @@
              b = Math.floor(g % 864e5 / 36e5),
              c = Math.floor(g % 36e5 / 6e4),
              d = Math.floor(g % 6e4 / 1e3),
-             zz = v,
-             aa = new Date("Dec 12, " + zz).getTime(),
+             zz = v + 1,
+             aa = new Date("Dec 13, " + zz).getTime(),
              bb = aa - f,
              cc = bb / 864e5,
              dd = Math.floor(bb / 864e5),
