@@ -71,7 +71,7 @@ function history() //한국사: Zoom만 시행하는 과목
             switch (value) {
 
                 case "OK":
-                    location.href = "https://us05web.zoom.us/j/85898964263?pwd=RFBBUk42dUQzQmlrbGc4cG92VStCZz09";
+                    location.href = "https://us05web.zoom.us/j/83786134913?pwd=MDg0cEljS25PK3QzR29kcjE3N2JrZz09";
                     break;
                 default:
 
@@ -111,7 +111,7 @@ function music() //음악: Zoom만 시행하는 과목
             switch (value) {
 
                 case "OK":
-                    location.href = "https://us02web.zoom.us/j/9222655961?pwd=RFhjVFl1T3FVVmN0aEhWOWs1MThVZz09";
+                    location.href = "https://us02web.zoom.us/j/3537309049?pwd=ODRERmdqdHhWb1oveHRMNm5kOGl3dz09";
                     break;
                 default:
 

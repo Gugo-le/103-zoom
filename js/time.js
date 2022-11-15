@@ -1,5 +1,5 @@
-var startdate = "202211130910";
-var enddate = "202211170910";
+var startdate = "202211131010";
+var enddate = "202211171010";
 
 var now = new Date(); //현재시간
 
@@ -30,4 +30,6 @@ if ((eval(today) > eval(startdate)) && ((eval(today) < eval(enddate)))) {
     // 내 생각엔 음 1교시를 해두자.... 근데 1교시 다른데 어떡하지......
     // 각각 할 수도 없고
     //그냥 alert로 줌 수업 들어오세요 팝업창 띄워야겠다.
+    // 오늘 테스트 해본 결과 응 안돼ㅋ
+    // 왜 안되는지 모르겠지만 흠...
 }
