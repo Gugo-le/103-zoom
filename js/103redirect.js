@@ -335,3 +335,23 @@ function pe() //체육: Zoom만 시행하는 과목
             }
         });
 }
+
+function done() // 특별 기능: 건우 후원
+{
+    swal("아직 기능이 오픈되지 않았어요.", "", "success", {
+            buttons: {
+                cancel: "취소",
+                OK: true,
+            }
+        })
+        .then((value) => {
+            switch (value) {
+
+                case "OK":
+                    location.href = "https://103-zoom.netlify.app/";
+                    break;
+                default:
+
+            }
+        });
+}
