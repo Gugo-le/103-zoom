@@ -1,5 +1,5 @@
-var startdate = "202211131010";
-var enddate = "202211171010";
+var startdate = "202211130910";
+var enddate = "202211180910";
 
 var now = new Date(); //현재시간
 
@@ -24,7 +24,6 @@ today = year + "" + month + "" + date + "" + hour + "" + min; //오늘 날짜 �
 // 시간비교
 if ((eval(today) > eval(startdate)) && ((eval(today) < eval(enddate)))) {
     function zoom() {
-        alert("줌 들어오세요.")
+        location.href = "https://zoom.us/j/3585993000?pwd=SmVielBWUW9DNkVnekVmNERPYjBVZz09";
     }
-
 }
