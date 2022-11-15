@@ -7,7 +7,7 @@
 - [x] 시간표 구현
 - [x] 과목 클릭시 줌 주소 연결
 
-## ver 0.2
+## ver 0.2 
 - [x] D-DAY 기능 구현
 - [x] css 보완
 
@@ -17,5 +17,26 @@
 
 ## ver 0.4
 - [x] 특정 시간 되면 alert 생성!
+
+## ver 0.4.1
+- [x] 웹 사이트 공유시 title, description, image, url을 뜨게 함.
+
+## ver 0.4.2
+- [x] 친구들 요청으로 기말고사 디데이 설정 변경
+- [x] 건우 생일 디데이 추가
+
+## ver 0.4.3
+- [ ] 건우 후원 기능 만들기
+
+
+```html
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="1학년 3반만의 줌 시간표">
+    <meta property="og:description" content="10302 구현승 제작">
+    <meta property="og:image" content="https://103-zoom.netlify.app/103zoom.png">
+    <meta property="og:url" content="https://103-zoom.netlify.app/">
+```
+
+
 
  
