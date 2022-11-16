@@ -1,0 +1,38 @@
+.about__container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 13px 27px -5px rgb(50 50 93 / 25%), 0 8px 16px -8px rgb(0 0 0 / 30%), 0 -6px 16px -6px rgb(0 0 0 / 3%);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 350px;
+    font-weight: 300;
+    /* background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+    background-color: #282828;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__container span:first-child {
+    font-size: 20px;
+}
+
+.about__container span {
+    color: #808d9a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Do Hyeon', sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    place-content: center;
+}

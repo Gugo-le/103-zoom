@@ -37,6 +37,10 @@
 - [x] 선물해주기 기능(11월 25일 오픈 예정)
 - [x] 눈 내리는 효과 구현
 
+## ver 0.6
+- [x] 동기부여 랜덤 발생 구현 ([yoonhero](https://github.com/yoonhero)님의 time-timer quote를 참조함.)
+
+
 
 
 
