@@ -45,7 +45,7 @@
 # 프로젝트 종료!
 
 
-
+노마드코더 #sideprojects [보러가기](https://nomadcoders.co/community/thread/5949)
 
 
  
