@@ -42,7 +42,7 @@
 ## ver 0.6
 - [x] 동기부여 랜덤 발생 구현 ([yoonhero](https://github.com/yoonhero)님의 time-timer quote를 참고함.)
 
-
+# 프로젝트 종료!
 
 
 
