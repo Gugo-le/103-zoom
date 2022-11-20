@@ -1,6 +1,8 @@
 # 103-zoom
 1학년 3반만의 줌 접속 시간표입니다.
 
+<img src = "./img/103-zoomp.png" width = "500" height = "700">
+
 이용해보기[https://103-zoom.netlify.app/]
 
 ## ver 0.1
@@ -16,7 +18,7 @@
 - [x] 공부하러가기 기능 구현(pomusic)
 
 ## ver 0.4
-- [x] 특정 시간 되면 alert 생성!
+- [x] 특정 시간 되면 alert 생성! (실행 안됨..)
 
 ## ver 0.4.1
 - [x] 웹 사이트 공유시 title, description, image, url을 뜨게 함.
@@ -38,7 +40,7 @@
 - [x] 눈 내리는 효과 구현
 
 ## ver 0.6
-- [x] 동기부여 랜덤 발생 구현 ([yoonhero](https://github.com/yoonhero)님의 time-timer quote를 참조함.)
+- [x] 동기부여 랜덤 발생 구현 ([yoonhero](https://github.com/yoonhero)님의 time-timer quote를 참고함.)
 
 
 

@@ -111,7 +111,7 @@ function music() //음악: Zoom만 시행하는 과목
             switch (value) {
 
                 case "OK":
-                    location.href = "https://us02web.zoom.us/j/3537309049?pwd=ODRERmdqdHhWb1oveHRMNm5kOGl3dz09";
+                    location.href = "https://us02web.zoom.us/j/9222655961?pwd=RFhjVFl1T3FVVmN0aEhWOWs1MThVZz09";
                     break;
                 default:
 
